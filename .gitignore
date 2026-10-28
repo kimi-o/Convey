@@ -1,0 +1,9 @@
+node_modules
+.env
+.env.local
+**/.env
+**/.env.local
+web/.next
+web/.storage
+chains/artifacts
+chains/cache

@@ -1,0 +1,29 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check": "node scripts/check-project.mjs",
+    "check:chain": "node scripts/check-chain.mjs",
+    "test:storage": "node --env-file=.env.local scripts/test-storage.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "lucide-react": "^1.58.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hot-toast": "^2.6.1",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4"
+  }
+}
